@@ -1,7 +1,7 @@
 import os
 import logging
 from yt_dlp import YoutubeDL
-from config.settings import DOWNLOAD_DIR
+from config.settings import DOWNLOAD_DIR, COOKIES_DIR
 from utils.cache import load_cache, save_cache
 
 def download_audio(url):
@@ -22,6 +22,7 @@ def download_audio(url):
         "outtmpl": f"{DOWNLOAD_DIR}/%(title)s.%(ext)s",
         "quiet": True,
         "no_warnings": True,
+        "cookies": COOKIES_DIR
     }
 
     try:

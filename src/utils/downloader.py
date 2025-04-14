@@ -41,6 +41,7 @@ def download_video_from_instagram(url):
     ydl_opts = {
         "format": "best[ext=mp4]/best",
         "outtmpl": f"{DOWNLOAD_DIR}/%(title)s.%(ext)s",
+        "no_metadata": True,
         "quiet": False,
         "no_warnings": False,
     }
@@ -62,6 +63,7 @@ def download_video_from_tiktok(url):
         "outtmpl": f"{DOWNLOAD_DIR}/%(title)s.%(ext)s",
         "quiet": True,
         "no_warnings": True,
+        "no_metadata": True,
     }
 
     try:

@@ -6,8 +6,8 @@ A Telegram bot that downloads audio and video from YouTube, Instagram, and TikTo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/music_downloader_bot.git
-   cd music_downloader_bot
+   git clone https://github.com/me-sarvar/downloader_bot.git
+   cd downloader_bot
    ```
 2. Install dependencies:
     ``` bash

@@ -22,7 +22,7 @@ def download_audio(url):
         "outtmpl": f"{DOWNLOAD_DIR}/%(title)s.%(ext)s",
         "quiet": True,
         "no_warnings": True,
-        "cookies": COOKIES_DIR
+        "cookies_from_browser": "chrome",
     }
 
     try:

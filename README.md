@@ -29,7 +29,6 @@ A Telegram bot that downloads audio and video from YouTube, Instagram, and TikTo
 
 
 ## License
-```text
 
 ---
 
@@ -91,4 +90,3 @@ A Telegram bot that downloads audio and video from YouTube, Instagram, and TikTo
 ---
 
 This structure separates concerns, improves readability, and makes the project easier to maintain or extend. Let me know if you need help with any specific part of the implementation!
-```

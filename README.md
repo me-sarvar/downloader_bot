@@ -1,4 +1,4 @@
-# Music Downloader Bot
+# Media Downloader Bot
 
 A Telegram bot that downloads audio and video from YouTube, Instagram, and TikTok.
 
